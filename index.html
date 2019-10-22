@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
-<body>
- <p>Click the button to open a new browser window.</p>
-
-<button onclick="myFunction()">Try it</button>
-<script>
-function myFunction() {
-  window.open("file://///172.18.40.164/SharedFolder");
-}
-</script>
-
-</body>
+    <head>
+        <title>Test</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <script type="text/javascript">
+        function codeAddress() {
+            window.open("file://///172.18.40.164/SharedFolder");
+        }
+        window.onload = codeAddress;
+        </script>
+    </head>
+    <body>
+    
+    </body>
 </html>
